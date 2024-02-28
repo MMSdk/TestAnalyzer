@@ -241,7 +241,7 @@
       "url": "Config\/debug_20240227.json"
     },
     {
-      "hash": "sha256-xDoWe\/MkciLeTWks7DkFKA\/ZbIM3\/WMBLfv22iYDm0U=",
+      "hash": "sha256-XFEtDWWe6Jf6j7J8JtAMqObDyehZC0eFtfRQenPzz74=",
       "url": "css\/app.css"
     },
     {
