@@ -1,0 +1,91 @@
+{
+  "AnalyzerServer": "",
+  "Configs": [
+    {
+      "Index": 1,
+      "SourceObject": "Brower",
+      "TargetObject": "SDK-Web",
+      "Address": "http://localhost:8084/metacene.ico",
+      "Type": 0
+    },
+    {
+      "Index": 2,
+      "SourceObject": "Brower",
+      "TargetObject": "Rangers",
+      "Address": "https://robin.rangersprotocol.com/api/jsonrpc",
+      "Type": 1,
+      "InData": "{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}",
+      "OutDataProperty": "jsonrpc"
+    },
+    {
+      "Index": 3,
+      "SourceObject": "Brower",
+      "TargetObject": "MMSDK-Log",
+      "Address": "https://log.mixmarvel-sdk.com/favicon.ico",
+      "Type": 0
+    },
+    {
+      "Index": 4,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|broadcast",
+      "Address": "https://broadcast-server.tor.us/",
+      "Type": 0
+    },
+    {
+      "Index": 5,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|Google",
+      "Address": "https://accounts.google.com/.well-known/openid-configuration",
+      "Type": 0
+    },
+    {
+      "Index": 6,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|auth",
+      "Address": "https://auth.web3auth.io/v6/favicon.png",
+      "Type": 2
+    },
+    {
+      "Index": 7,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|signer",
+      "Address": "https://signer.web3auth.io/api/allow",
+      "Type": 0
+    },
+    {
+      "Index": 8,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|node-1",
+      "Address": "https://node-1.node.web3auth.io/sss/mainnet/jrpc",
+      "Type": 0
+    },
+    {
+      "Index": 9,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|node-2",
+      "Address": "https://node-2.node.web3auth.io/sss/mainnet/jrpc",
+      "Type": 0
+    },
+    {
+      "Index": 10,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|node-3",
+      "Address": "https://node-3.node.web3auth.io/sss/mainnet/jrpc",
+      "Type": 0
+    },
+    {
+      "Index": 11,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|node-4",
+      "Address": "https://node-4.node.web3auth.io/sss/mainnet/jrpc",
+      "Type": 0
+    },
+    {
+      "Index": 12,
+      "SourceObject": "Brower",
+      "TargetObject": "Web3Auth|node-5",
+      "Address": "https://node-5.node.web3auth.io/sss/mainnet/jrpc",
+      "Type": 0
+    }
+  ]
+}

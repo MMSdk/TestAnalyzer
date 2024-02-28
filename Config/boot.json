@@ -1,0 +1,10 @@
+[
+  {
+    "name": "debug_20240226.json",
+    "use": false
+  },
+  {
+    "name": "debug_20240227.json",
+    "use": true
+  }
+]

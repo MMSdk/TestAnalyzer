@@ -1,0 +1,10 @@
+@import '_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css';
+
+/* /Pages/Analyzer.razor.rz.scp.css */
+/* Ensure all the flags are the same size, and centered */
+.progress[b-13iu4qtkvn] {
+/*    height: 1rem;
+    margin: auto;
+    border: 1px solid var(--neutral-layer-3);
+*/
+}
