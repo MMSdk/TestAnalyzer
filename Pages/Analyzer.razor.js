@@ -43,6 +43,10 @@
 
             const script = document.createElement('script');
             script.src = `${url}&callback=${callbackName}`;
+
+            console.log("jsGetIPData");
+            console.log(script.src);
+
             document.body.appendChild(script);
         });
     }
