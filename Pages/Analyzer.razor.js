@@ -43,6 +43,7 @@
 
             const script = document.createElement('script');
             script.src = `${url}&callback=${callbackName}`;
+            script.crossOrigin = "anonymous";
 
             console.log("jsGetIPData");
             console.log(script.src);
