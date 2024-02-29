@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SDKAnalyzer",
   "resources": {
-    "hash": "sha256-vNATHBhfJLg4UI6g5ogCnjnrW7mT2ffWC5ApI0SHfOM=",
+    "hash": "sha256-jdLjA+6EFWdrg4i7c+HBFK9WZ3T/cQjxZ3Yns3Up2zQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.hr3j199gss.js": "sha256-rWyfkqeo7zQ/vmJR+tKPjEN4LLvgb0vg4broufZERwY="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.2.8j60y5zbay.js": "sha256-54KSaoOArNfygQbV+r4B5y3ys53v2tnvFIyZcZiUmi0="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-HGWHta7RAZL79NPHitmCnMkrTWiUl24kmLDFUMJxQBY="
+      "dotnet.native.wasm": "sha256-HU+2Yn9XpyBI2AGeRvYK7zDup0zRSyiegGassIwFyzw="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -33,7 +33,7 @@
       "Microsoft.FluentUI.AspNetCore.Components.wasm": "sha256-P2lE5LbpwHQGijvKtpGOf9jorhHOtSaP6kfqODqWtxE=",
       "Microsoft.JSInterop.wasm": "sha256-cVipHMwfLG4IXyjijSWt/pad/gTis/gWQAWKPIyymOc=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-2qBJkLnOCr4py2S0peps0cFo0z3Ew9OVwGYodtvAVkk=",
-      "SDKAnalyzer.wasm": "sha256-5PQSO4ZkGoN6dIljJfkE1tzVtZWc3NsKb8hujvs5AIA=",
+      "SDKAnalyzer.wasm": "sha256-h3SqTikg4bR66kuIzDY5drUlvsQFsp0jxcfQ/Cbpljc=",
       "System.Collections.Concurrent.wasm": "sha256-oUjZDTQCRa4lmNA119QB54BZjxSHGtGCO/vwYqsVrh8=",
       "System.Collections.wasm": "sha256-fVKaAO5R2XjG3kgtWOlUERRn1nrw/VA61C2qSyFz2uY=",
       "System.ComponentModel.Annotations.wasm": "sha256-EUwzW/yXKVL4sOKlZEpODpFmz443+7EGjcGprYx3hic=",

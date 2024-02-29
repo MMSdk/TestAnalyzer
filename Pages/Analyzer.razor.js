@@ -31,7 +31,8 @@
 
     static jsGetIPData() {
         return new Promise((resolve, reject) => {
-            var url = 'http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,query';
+            //var url = 'http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,query';
+            var url = 'https://analysis.mixmarvel-sdk.com/ipjson/?fields=status,message,country,countryCode,region,regionName,city,query';
             const callbackName = 'jsonpCallback' + Math.round(100000 * Math.random());
             window[callbackName] = function (data) {
                 delete window[callbackName];
