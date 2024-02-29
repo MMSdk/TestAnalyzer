@@ -4,11 +4,9 @@
     {
       "Index": 1,
       "SourceObject": "Brower",
-      "TargetObject": "Rangers",
-      "Address": "https://robin.rangersprotocol.com/api/jsonrpc",
-      "Type": 1,
-      "InData": "{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}",
-      "OutDataProperty": "jsonrpc"
+      "TargetObject": "Web3Auth|Google",
+      "Address": "https://accounts.google.com/.well-known/openid-configuration",
+      "Type": 2
     }
   ]
 }
