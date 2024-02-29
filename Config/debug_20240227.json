@@ -5,7 +5,7 @@
       "Index": 1,
       "SourceObject": "Brower",
       "TargetObject": "SDK-Web",
-      "Address": "http://localhost:8084/metacene.ico",
+      "Address": "https://h5-beta.mixmarvel-sdk.com/metacene.ico",
       "Type": 0
     },
     {
