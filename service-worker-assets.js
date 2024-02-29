@@ -217,7 +217,7 @@
       "url": "SDKAnalyzer.styles.css"
     },
     {
-      "hash": "sha256-ZD\/I84g4BFujbuZmAAV8R2kDKuz7ZQG7WL0WDCADYV0=",
+      "hash": "sha256-t\/bCrbRvY6yFh77TYh9n4P7\/anQgcIWXAwQjQySjOb4=",
       "url": "Pages\/Analyzer.razor.js"
     },
     {
@@ -389,5 +389,5 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     }
   ],
-  "version": "NqjNAhEs"
+  "version": "UKaAxzP7"
 };
