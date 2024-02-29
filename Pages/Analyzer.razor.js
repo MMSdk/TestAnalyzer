@@ -28,30 +28,6 @@
         anchorElement.remove();
         URL.revokeObjectURL(url);
     }
-
-    static jsGetIPData() {
-        return new Promise((resolve, reject) => {
-            //var url = 'http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,query';
-            var url = 'https://analysis.mixmarvel-sdk.com/ipjson/';
-            const callbackName = 'jsonpCallback' + Math.round(100000 * Math.random());
-            window[callbackName] = function (data) {
-                delete window[callbackName];
-                document.body.removeChild(script);
-
-                console.log(data);
-                resolve(data);
-            };
-
-            const script = document.createElement('script');
-            script.src = `${url}&callback=${callbackName}`;
-            script.crossOrigin = "anonymous";
-
-            console.log("jsGetIPData");
-            console.log(script.src);
-
-            document.body.appendChild(script);
-        });
-    }
 }
 
 window.Analyzer = Analyzer;
